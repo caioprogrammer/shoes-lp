@@ -1,0 +1,39 @@
+.ratings {
+  background-color: #eaddd7;
+  border-top: 2px dashed #dec7b9;
+  border-bottom: 2px dashed #dec7b9;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .item-left {
+      h3 {
+        font-size: 28px;
+        font-weight: 500;
+        max-width: 500px;
+        letter-spacing: 1.5px;
+        line-height: 38px;
+      }
+    }
+    .item-right {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 32px;
+      span {
+        text-align: center;
+        line-height: 30px;
+        max-width: 200px;
+        b {
+          font-weight: 700;
+          font-size: 48px;
+        }
+        p {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
