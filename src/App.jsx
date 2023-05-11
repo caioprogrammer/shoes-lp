@@ -1,13 +1,14 @@
-import { About, Button, Footer, Header, Hero, Ratings, Services } from "./components"
+import { About, Footer, Header, Hero, Ratings, Products, Services } from "./components"
 
 function App() {
   return (
     <>
       <Header />
       <Hero />
-      {/* <Button /> */}
       <Ratings />
+      <Products />
       <About />
+      {/* <Stories /> */}
       <Services />
       <Footer />
     </>

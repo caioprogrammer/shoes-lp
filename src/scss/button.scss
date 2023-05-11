@@ -1,0 +1,17 @@
+.button {
+  background-color: unset;
+  font-size: 32px;
+  &.primary {
+    background-color: #576f72;
+    border: 1px solid #576f72;
+    color: #ffffff;
+    font-weight: 600;
+    border-radius: 50px;
+    padding: 8px 48px;
+    transition: .3s;
+    &:hover {
+      background: transparent;
+      color: #576f72;
+    }
+  }
+}
