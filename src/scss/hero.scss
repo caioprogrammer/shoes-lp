@@ -1,0 +1,17 @@
+.hero {
+  height: 660px;
+  width: 100%;
+  position: relative;
+  @media screen and (max-width: 768px) {
+    height: 460px;
+  }
+  img {
+    position: absolute;
+    max-width: 680px;
+    z-index: 0;
+    left: 55%;
+    @media screen and (max-width: 768px) {
+      left: auto;
+    }
+  }
+}

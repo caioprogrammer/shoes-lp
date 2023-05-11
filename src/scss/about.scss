@@ -1,0 +1,23 @@
+.about {
+  background-color: #576f72;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  color: #fff;
+  &__content {
+    &-intern {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 40px 0;
+      @media screen and (max-width: 768px) {
+        flex-direction: column-reverse;
+        gap: 36px;
+      }
+      .text {
+        max-width: 550px;
+        text-align: justify;
+        font-size: 20px;
+      }
+    }
+  }
+}

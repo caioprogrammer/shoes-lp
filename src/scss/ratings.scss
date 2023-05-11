@@ -1,13 +1,19 @@
 .ratings {
-  background-color: #eaddd7;
-  border-top: 2px dashed #dec7b9;
-  border-bottom: 2px dashed #dec7b9;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  background-color: #576f72;
+  border-top: 2px dashed #e1fcff;
+  border-bottom: 2px dashed #e1fcff;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  color: #ffffff;
   &__content {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+      text-align: center;
+      gap: 36px;
+    }
     .item-left {
       h3 {
         font-size: 28px;
