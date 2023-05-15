@@ -7,3 +7,4 @@ export { default as Products } from "./Products";
 export { default as Services } from "./Services";
 export { default as Stories } from "./Stories";
 export { default as Footer } from "./Footer";
+export { default as FloatingButton } from "./FloatWhatsapp";

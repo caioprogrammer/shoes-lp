@@ -3,7 +3,7 @@ import Button from './Button'
 
 const Hero = () => {
   return (
-    <section className="hero">
+    <section id='home' className="hero">
       <div className="container">
         <div className="hero__content">
           <div className="hero__content-cta">

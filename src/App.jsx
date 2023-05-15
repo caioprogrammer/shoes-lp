@@ -1,4 +1,4 @@
-import { About, Footer, Header, Hero, Ratings, Products, Services } from "./components"
+import { About, Footer, Header, Hero, Ratings, Products, Services, FloatingButton } from "./components"
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
       {/* <Stories /> */}
       <Services />
       <Footer />
+      <FloatingButton />
     </>
   )
 }

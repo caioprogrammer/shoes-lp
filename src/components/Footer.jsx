@@ -1,6 +1,12 @@
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <footer className="footer">
+      <div className="container">
+        <div className="footer__copyright">
+          Copyright 2023. <strong>Nome da Loja.</strong> Todos os direitos reservados
+        </div>
+      </div>
+    </footer>
   )
 }
 

@@ -1,0 +1,11 @@
+.footer {
+  background-color: #576f72;
+  padding: 16px 0;
+  &__copyright {
+    text-align: center;
+    font-weight: 500;
+    strong {
+      font-weight: 700;
+    }
+  }
+}

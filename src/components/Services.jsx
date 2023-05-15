@@ -2,7 +2,7 @@ import miniSeal from '../assets/mini-seal.svg';
 
 const Services = () => {
   return (
-    <section className="services">
+    <section id='services' className="services">
       <div className="container">
         <div className="services__content">
           <h2 className="section-title">
