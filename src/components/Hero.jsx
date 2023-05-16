@@ -8,14 +8,14 @@ const Hero = () => {
         <div className="hero__content">
           <div className="hero__content-cta">
             <h2>
-              Find best shoes for you!
+              Encontre o par perfeito para você!
             </h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit, sed do eiusmod tempor 
-              incididunt ut labore et dolore.
+              Encontre o par perfeito agora e dê um passo à frente.
+              <br />
+              Explore nossa coleção e adicione estilo e conforto à sua vida hoje mesmo!
             </p>
-            <Button buttonClass="primary" buttonLink="#" buttonText="SHOP NOW" />
+            <Button buttonClass="primary" buttonLink="#" buttonText="COMPRE AGORA!" />
           </div>
           <div className="hero__content-image">
             <img src={floatShoes} alt="" />

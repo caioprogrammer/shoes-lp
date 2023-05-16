@@ -8,47 +8,109 @@
 @import './scss/about';
 @import './scss/services.scss';
 @import './scss/footer';
+@import './scss/floating-button';
 
 
-.floating_btn {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  width: 64px;
-  height: 64px;
+$bg-color: #F6F8FC;
+$primary-text-color: #212943;
+$secondary-text-color: #576f72;
+$details: #DEE4F1;
+
+form {
   display: flex;
-  flex-direction: column;
-  align-items:center;
-  justify-content:center;
-  z-index: 1000;
-}
-
-@keyframes pulsing {
-  to {
-    box-shadow: 0 0 0 30px rgba(232, 76, 61, 0);
+  width: 35rem;
+  background-color: #fff;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 1rem;
+  
+  svg {
+    height: 1rem;
+    fill: $secondary-text-color;
+    position: fixed; 
+    width: 4rem;
   }
 }
 
-.contact_icon {
-  background-color: #42db87;
-  color: #fff;
-  width: 48px;
-  height: 48px;
-  border-radius: 50px;
-  text-align: center;
-  box-shadow: 2px 2px 3px #999;
+.section-title {
+  &.heading {
+    color: #576f72;
+    margin: 36px 0;
+    &::before {
+      background-color:#576f72;
+    }
+  }
+}
+.faq {
+  margin: 3rem 0;
+}
+.question-wrapper {
+  width: 50rem;
+  border-bottom: 1px solid $details; 
+  margin: 0 auto;
+  padding: 1rem;
+  transition: 1s;
+  @media screen and (max-width: 1024px){
+    width: 100%;
+  }
+}
+
+.question {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  transform: translatey(0px);
-  animation: pulse 1.5s infinite;
-  box-shadow: 0 0 0 0 #42db87;
-  -webkit-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
-  -moz-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
-  -ms-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
-  animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
-  font-weight: normal;
-  font-family: sans-serif;
-  text-decoration: none !important;
-  transition: all 300ms ease-in-out;
+  font-size: 18px;
+  font-weight: 500;
+  color: $primary-text-color;  
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  svg {
+    width: 1rem;
+    height: 1.5rem;
+    fill: $secondary-text-color;
+  }
+  
+  svg.active {
+    transform: rotate(180deg);
+  }
+  
+  svg:hover {
+    opacity: 0.8;
+  }
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+.answer {
+  display: none;
+}
+
+.answer.active {
+  display: block;
+  text-align: left;
+  padding-top: 1.5rem;
+  font-weight: light;
+  font-size: 16px;
+  line-height: 1.5;
+  color: $secondary-text-color;
+  height: 0%;
+  animation: slidein 0.4s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slidein {
+  from {
+    opacity: 0.3;
+    transform: translateY(-20%)
+  } to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
 }

@@ -9,7 +9,7 @@ const Products = () => {
     <section id='products' className='products'>
       <div className="container">
         <div className="section-title">
-          Our Products
+          Nossos Produtos
         </div>
         <div className='products__grid'>
           <ProductCard image={product1} />

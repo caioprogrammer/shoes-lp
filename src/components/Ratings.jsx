@@ -1,3 +1,5 @@
+import starRating from '../assets/starRatings.svg';
+
 const Ratings = () => {
   return (
     <section className="ratings">
@@ -5,20 +7,20 @@ const Ratings = () => {
         <div className="ratings__content">
           <div className="item-left">
             <h3>
-              Trusted BY Over 40,000+ Clients 
-              Worldwide Since 2012
+              Mais de 1000 clientes confiam na Zagli
+              |
+              Desde 2016
             </h3>
           </div>
           <div className="item-right">
             <span>
-              <b>4</b>
-              <p>3,800 Ratings</p>
+              <b>5 <img src={starRating} /></b>
+              <p>363 Avaliações</p>
             </span>
             <span>
-              <b>5M+</b>
+              <b>3K+</b>
               <p>
-                Worldwide
-                Sale per year
+                +3 mil calçados vendidos
               </p>
             </span>
           </div>

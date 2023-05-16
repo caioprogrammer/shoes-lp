@@ -1,4 +1,8 @@
-import miniSeal from '../assets/mini-seal.svg';
+import miniSeal1 from '../assets/mini-seal-1.svg';
+import miniSeal2 from '../assets/mini-seal-2.svg';
+import miniSeal3 from '../assets/mini-seal-3.svg';
+import miniSeal4 from '../assets/mini-seal-4.svg';
+import miniSeal5 from '../assets/mini-seal-5.svg';
 
 const Services = () => {
   return (
@@ -6,12 +10,12 @@ const Services = () => {
       <div className="container">
         <div className="services__content">
           <h2 className="section-title">
-            Our Services
+            Nossos Serviços
           </h2>
           <div className="services__content-intern">
             <div className="item">
-              <img src={miniSeal} alt="" />
-              <h4>Fast Delivery</h4>
+              <img src={miniSeal1} alt="" />
+              <h4>Envio Rápido</h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur 
                 adipisicing elit. Asperiores possimus 
@@ -20,8 +24,8 @@ const Services = () => {
               </p>
             </div>
             <div className="item">
-              <img src={miniSeal} alt="" />
-              <h4>100% Warranty</h4>
+              <img src={miniSeal2} alt="" />
+              <h4>100% de Garantia</h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur 
                 adipisicing elit. Asperiores possimus 
@@ -30,8 +34,8 @@ const Services = () => {
               </p>
             </div>
             <div className="item">
-              <img src={miniSeal} alt="" />
-              <h4>24/7 Support</h4>
+              <img src={miniSeal3} alt="" />
+              <h4>Atendimento Rápido</h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur 
                 adipisicing elit. Asperiores possimus 
@@ -40,8 +44,8 @@ const Services = () => {
               </p>
             </div>
             <div className="item">
-              <img src={miniSeal} alt="" />
-              <h4>Best Quality</h4>
+              <img src={miniSeal4} alt="" />
+              <h4>Alta Qualidade</h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur 
                 adipisicing elit. Asperiores possimus 
@@ -50,8 +54,8 @@ const Services = () => {
               </p>
             </div>
             <div className="item">
-              <img src={miniSeal} alt="" />
-              <h4>Suitable For All</h4>
+              <img src={miniSeal5} alt="" />
+              <h4>Perfeito para Você</h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur 
                 adipisicing elit. Asperiores possimus 

@@ -48,9 +48,9 @@ const Header = () => {
         <div className="header__menu">
           <ul className='header__menu-items'>
             <li><a href="#home" data-replace="HOME"><span>HOME</span></a></li>
-            <li><a href="#products" data-replace="OUR PRODUCTS"><span>OUR PRODUCTS</span></a></li>
-            <li><a href="#about" data-replace="ABOUT US"><span>ABOUT US</span></a></li>
-            <li><a href="#services" data-replace="OUR SERVICES"><span>OUR SERVICES</span></a></li>
+            <li><a href="#products" data-replace="PRODUTOS"><span>PRODUTOS</span></a></li>
+            <li><a href="#about" data-replace="SOBRE NÓS"><span>SOBRE NÓS</span></a></li>
+            <li><a href="#services" data-replace="NOSSOS SERVIÇOS"><span>NOSSOS SERVIÇOS</span></a></li>
           </ul>
         </div>
       </div>

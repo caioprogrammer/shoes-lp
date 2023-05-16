@@ -17,6 +17,9 @@
         color: #576f72;
         text-transform: uppercase;
         margin-bottom: 24px;
+        @media screen and (max-width: 768px) {
+          font-size: 52px;
+        }
       }
       p {
         text-align: justify;

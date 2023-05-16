@@ -9,6 +9,9 @@
     border-radius: 50px;
     padding: 8px 48px;
     transition: .3s;
+    @media screen and (max-width:768px) {
+      padding: 8px 36px;
+    }
     &:hover {
       background: transparent;
       color: #576f72;

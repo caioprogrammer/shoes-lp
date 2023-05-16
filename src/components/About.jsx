@@ -4,29 +4,32 @@ const About = () => {
       <div className="container">
         <div className="about__content">
           <h2 className="section-title">
-            About Us
+            Sobre Nós
           </h2>
           <div className="about__content-intern">
             <div className="text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Omnis possimus quos provident! Quae facilis minus corporis 
-              doloribus nobis exercitationem, animi architecto atque, 
-              sint ipsa reiciendis aperiam totam labore rem quidem
-              Iure nam optio, provident debitis maxime laborum vel voluptatibus
-              laudantium a perspiciatis quis dicta, explicabo velit 
-              praesentium illum accusamus eos pariatur suscipit! 
-              Eligendi quia et dicta necessitatibus porro cupiditate. 
-              Voluptatibus!
-              Deleniti, placeat non quaerat 
-              dolorem consectetur at cum beatae ullam 
-              nesciunt pariatur. Nisi dignissimos nihil 
-              qui natus amet itaque, porro eum debitis vel 
-              minus obcaecati corrupti aspernatur nobis.
+              Sabemos que encontrar um calçado que seja verdadeiramente satisfatório pode ser difícil. 
+              Muitas vezes, ao comprar online, nos deparamos com produtos que não atendem às nossas expectativas, 
+              resultando em frustração e desconforto.
               <br />
               <br />
-              Placeat, nulla.
-              Illo veritatis delectus numquam optio sequi esse laudantium quibusdam nihil ad? Doloremque atque saepe deserunt error ad alias officiis repellat sint ut, sequi ipsum odit porro qui odio magni aspernatur.
-              Facere sequi unde sit odit cumque est possimus recusandae molestiae nam. Accusamus blanditiis distinctio adipisci sit voluptate nam et ab dolorem iure explicabo laborum ut corrupti, ipsum quod enim libero.
+              Foi por isso que, em 2013, decidimos criar uma loja de calçados femininos diferente. Nosso objetivo era oferecer às mulheres produtos de alta qualidade, com um design inovador e, acima de tudo, confortáveis. Embora tenhamos precisado fechar temporariamente, retornamos em 2022 com ainda mais determinação e dedicação.
+              <br />
+              <br />
+              Nossa equipe é composta por pessoas que entendem as necessidades e as dores das clientes. Trabalhamos incansavelmente para garantir sua satisfação, selecionando cuidadosamente nossos fornecedores e atendimento personalizado.
+              Oferecemos um catálogo diversificado, com uma ampla gama de estilos de calçados femininos, para que cada mulher possa encontrar algo que se adeque ao seu gosto e estilo de vida. 
+              <br />
+              <br />
+              Não há mais motivo para sofrer na busca pelo calçado perfeito. Convidamos você a conhecer nossa loja e experimentar a diferença que fazemos em relação à sua satisfação. Aqui, você será recebida com um sorriso e nossa equipe estará pronta para ajudar.
+              <br />
+              <br />
+              Acompanhe nossas redes sociais para ficar atualizada sobre novidades e promoções
+              <br />
+              <br />
+              Não perca a oportunidade de se tornar uma de nossas clientes fiéis e sentir a diferença que fazemos para garantir sua satisfação.
+              <br />
+              Agende uma visita sem compromisso e venha se surpreender com a qualidade e a variedade de nossos produtos. Estamos ansiosos para atendê-la.
+
             </div>
             <div className="image">
               <img src="https://via.placeholder.com/660x660" alt="" />
