@@ -18,6 +18,16 @@
         text-align: justify;
         font-size: 20px;
       }
+
+      .image {
+        video {
+          max-width: 540px;
+          max-height: 960px;
+          @media screen and (max-width: 768px) {
+            max-width: 100%;
+          }
+        }
+      }
     }
   }
 }

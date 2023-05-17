@@ -1,3 +1,5 @@
+import processoEntrega from '../assets/videos/loja.mp4'
+
 const About = () => {
   return (
     <section id="about" className="about">
@@ -32,7 +34,9 @@ const About = () => {
 
             </div>
             <div className="image">
-              <img src="https://via.placeholder.com/660x660" alt="" />
+              <video className='product__video' muted autoPlay loop >
+                <source src={processoEntrega} type="video/mp4"/>
+              </video>
             </div>
           </div>
         </div>

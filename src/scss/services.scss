@@ -9,12 +9,17 @@
   }
   &__content {
     &-intern {
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
-      flex-wrap: wrap;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      align-items: flex-start;
       margin: 64px 0;
       row-gap: 64px;
+      @media screen and (max-width: 768px) {
+        grid-template-columns: repeat(5, 240px);
+        overflow-y: hidden;
+        overflow-x: auto;
+        padding-bottom: 16px;
+      }
       .item {
         max-width: 416px;
         padding: 0 32px;
